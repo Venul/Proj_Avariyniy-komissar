@@ -447,6 +447,10 @@ a:focus {
 		margin-top: 3px;
 	}
 
+	.header-button {
+		max-width: 80%;
+	}
+
 	.navbar-collapse {
 		text-align: left;
 	}
