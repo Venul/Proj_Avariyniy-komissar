@@ -166,6 +166,17 @@ a:focus {
 	margin-top: 50px;
 	border-radius: 2em;
 	transition: .25s;
+	animation: radial-pulse 1s infinite;
+}
+
+@keyframes radial-pulse {
+	0% {
+		box-shadow: 0 0 0 0px rgba(249, 4, 4, 0.5);
+	}
+
+	100% {
+		box-shadow: 0 0 0 40px rgba(247, 15, 15, 0);
+	}
 }
 
 .header-button:hover {
@@ -226,6 +237,7 @@ a:focus {
 	margin: 25px auto 0 auto;
 	border-radius: 2em;
 	transition: .25s;
+	animation: radial-pulse 1s infinite;
 }
 
 .accident-button:hover {
@@ -345,6 +357,7 @@ a:focus {
 	margin: 25px auto 0 auto;
 	border-radius: 2em;
 	transition: .25s;
+	animation: radial-pulse 1s infinite;
 }
 
 .footer-button:hover {
@@ -591,4 +604,14 @@ a:focus {
 	#vk_groups {
 		float: right;
 	}
+}
+
+.map {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+
+.footer-text.map {
+		margin: 10px auto;
 }
